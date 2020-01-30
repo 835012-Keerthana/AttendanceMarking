@@ -1,0 +1,163 @@
+/* Header for all web pages */
+header {
+    background-color: #1a1919;
+    height: 50px;
+    top: 0%;
+    left: 0%;
+    min-width: 100%;
+    position: fixed;
+    padding: 4px;
+    font-size: 30px;
+    color: #400040;
+    margin: 0%;
+    text-indent: 1%;
+    font-family: fantasy;
+    top: 0%;
+}
+/* Logo name in index.jsp */
+#logo-name {
+    top: 9%;
+    position: fixed;
+    left: 7.5%;
+    font-size: 30px;
+    font-family: Lucida Console;
+}
+
+/* Body tag in index.jsp */
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+}
+/* Navigation */
+nav a {
+    text-align: right;
+    margin-left: 85%;
+    color: #ffffff;
+    font-family: calibri;
+    text-decoration: none;
+    position: fixed;
+    top: 2%;
+    text-indent: 1%;
+    font-size: 20px;
+    position: fixed;
+    position: fixed;
+}
+
+nav a:hover {
+    background-color: buttonshadow;
+}
+
+img {
+    width: 135px;
+    height: 135px;
+    align: left;
+}
+
+h2 {
+    font-size: 20px;
+    top: 10%;
+    position: fixed;
+}
+
+#logo {
+    top: 7%;
+    height: 80px;
+    width: 80px;
+    position: fixed;
+}
+
+Anchor link Id for cart
+#cart {
+    margin-left: 100%;
+}
+
+#user {
+    margin-left: 92%;
+}
+
+#signin {
+    margin-left: 85%;
+}
+
+#admin {
+    background-image: url("../images/background-admin1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+    height: 70%;
+    background-repeat: no-repeat;
+}
+#admin-register {
+    width: 300px;
+    height: 80px;
+    top: 48%;
+    left: 30%;
+    position: fixed;
+    font-size: 25px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#admin-login {
+    width: 300px;
+    height: 80px;
+    top: 48%;
+    left: 50%;
+    font-size: 25px;
+    position: fixed;
+    background-color: #000000;
+    color: #ffffff;
+}
+.container{
+
+    background:rgba(0,0,0,0.5);
+    color :#f1f1f1;
+    width:40%;
+    height:200%;
+    padding:20px;
+    top:70%;
+    left:90%;
+    transform:translate(100%,90%);
+}
+
+#home-button {
+    width: 20px;
+    height: 20px;
+    position: fixed;
+}
+
+/* #interface {
+    top: 30%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    position: fixed;
+}
+
+#admin-interface {
+    top: 30%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    position: fixed;
+    width:300px;
+    height:300px;
+    border-width: 15px;
+    left: 3%;
+}
+
+#user-interface {
+    top: 30%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    position: fixed;
+    width:300px;
+    height:300px;
+    border-width: 15px;
+    left: 16%;
+}
+
+#title {
+    font-size: 50px;
+} */
