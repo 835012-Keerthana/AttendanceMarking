@@ -36,6 +36,10 @@
         </div>
     </div>
     </header>
+    <h1 id="trainer-quotes">
+        THE INFLUENCE OF TEACHERS <br />EXTENDS BEYOND THE CLASSROOM,<br />WELL INTO THE FUTURE. <br />&nbsp;&nbsp;&nbsp;-
+        F.SIONIL JOSE
+    </h1>
 </body>
 </html>
 

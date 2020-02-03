@@ -19,6 +19,7 @@
     <div class="container">
         <form action="" method="post">
             <table cellspacing="35">
+                <h3 align="center">Add Trainer</h3>
                 <tr>
                     <td><label for="trainer-id"><b>Trainer ID </b></label></td>
                     <td><input type="text" id="trainer-id" name="trainer-id" /></td>

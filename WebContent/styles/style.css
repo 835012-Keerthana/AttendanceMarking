@@ -21,7 +21,7 @@ header {
     font-size: 30px;
     font-family: Lucida Console;
     display: inline-block;
-    min-width:3.8cm;
+    min-width: 3.8cm;
 }
 
 /* Body tag in index.jsp */
@@ -43,7 +43,6 @@ nav a {
     top: 2%;
     text-indent: 1%;
     font-size: 20px;
-    position: fixed;
     position: fixed;
 }
 /* Navigation and anchor link in all webpages*/
@@ -433,6 +432,7 @@ input[type=radio].with-font:focus+label:before {
     width: 90px;
     height: 30px;
     position: fixed;
+    left: 40%;
 }
 /*Container class in upadte-trainer webpage*/
 .update-container {
@@ -463,9 +463,47 @@ input[type=radio].with-font:focus+label:before {
     position: fixed;
 }
 /*Quotes in index pages */
-#quotes{
-    top:28%;
-    left:3%;
-    font-size:40px;
-    position:fixed;
+#quotes {
+    top: 28%;
+    left: 1%;
+    font-family: Algerian;
+    font-size: 53px;
+    position: fixed;
+}
+/* Quotes in trainer page */
+#trainer-quotes {
+    top: 26%;
+    left: 15%;
+    font-family: Algerian;
+    font-size: 53px;
+    position: fixed;
+}
+/*Enroll link in user page*/
+#enroll {
+    color: #ffffff;
+    left: 90%;
+    top: 1.5%;
+    font-size: 25px;
+    font-family: calibri;
+    text-decoration: none;
+    position: fixed;
+}
+/*Attend link in user page*/
+#attend {
+    color: #ffffff;
+    left: 80%;
+    top: 1.5%;
+    font-size: 25px;
+    font-family: calibri;
+    text-decoration: none;
+    position: fixed;
+    text-decoration: none;
+}
+/* Quotes in user page */
+#user-quotes {
+    top: 26%;
+    left: 10%;
+    font-family: Algerian;
+    font-size: 53px;
+    position: fixed;
 }

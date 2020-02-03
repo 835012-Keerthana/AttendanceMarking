@@ -24,6 +24,9 @@
     <div id="logo-name">
         <b>ATTENDANCE MARKING</b> <br> <b>FOR CLASSROOM</b>
     </div>
-    <h1 id="quotes">YOU HAVE TO BALANCE YOUR PASSIONS, <br/><br/>NOT YOUR TIME</h1>
+    <h1 id="quotes">
+        YOU HAVE TO BALANCE YOUR <br /> PASSIONS, <br />NOT YOUR TIME.<br />&nbsp;&nbsp;&nbsp;&nbsp;-LISA
+        SUGAR
+    </h1>
 </body>
 </html>

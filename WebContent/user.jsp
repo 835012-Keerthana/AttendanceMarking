@@ -15,14 +15,11 @@
     <div id="logo-name" style="display: inline-block; min-width: 3.8cm;">
         <b>ATTENDANCE MARKING</b> <br> <b>FOR CLASSROOM</b>
     </div>
-
-
-    <div class="dropdown">
-        <button class="dropbtn">User</button>
-        <div class="dropdown-content">
-            <a href="enrollment.jsp">Enrollment</a> <a href="attendance.jsp">Attendance</a>
-        </div>
-    </div>
+    <a id="enroll" href="enrollment.jsp">Enrollment</a> <a id="attend" href="attendance.jsp">Attendance</a>
     </header>
+    <h1 id="user-quotes">
+        THE BEST BRAINS OF THE NATION <br />MAY BE FOUND ON THE LAST BENCHES <br />OF THE
+        CLASSROOM.<br />&nbsp;&nbsp;&nbsp;-A.P.J.ABDUL KALAM
+    </h1>
 </body>
 </html>

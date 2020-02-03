@@ -19,6 +19,7 @@
     <div class="container">
         <form action="" method="post">
             <table cellspacing="35">
+                <h3 align="center">Add Session</h3>
                 <tr>
                     <td><label for="session-id"><b>Session ID </b></label></td>
                     <td><input type="text" id="session-id" name="session-id" /></td>

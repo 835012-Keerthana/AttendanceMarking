@@ -18,7 +18,9 @@
     <div class="container-admin">
         <form action="trainer.jsp" method="post">
             <table cellspacing="15">
+                <h3 align="center">Login</h3>
                 <tr>
+
                     <td><label for="employeeId"><b>Admin Id</b></label></td>
                     <td><input type="text" id="employeeId" name="employeeId" /></td>
                 </tr>

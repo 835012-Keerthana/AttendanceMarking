@@ -6,6 +6,9 @@
 <title>Admin Page</title>
 <link rel="icon" href="images\logo3.png" />
 <link rel="stylesheet" type="text/css" href="styles\style.css" />
+<link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 <body id="admin">
     <header> <nav> <a id="home-icon" href="index.jsp"> HOME</a></nav> <nav> <a
@@ -18,11 +21,12 @@
     </div>
     <div class="update-container">
         <form action="session-details.jsp" method="post">
+            <h3 align="center">Search Session</h3>
+            <div class="input-icons">
+                <i class="fa fa-search icon" aria-hidden="true"></i> <input class="input-field"
+                    type="text" name="trainerId" placeholder="Trainer Id" />
+            </div>
             <table cellspacing="35">
-                <tr>
-                    <td><label for="session-id"><b>Session ID </b></label></td>
-                    <td><input type="text" id="session-id" name="session-id" /></td>
-                </tr>
 
                 <tr>
                     <td></td>

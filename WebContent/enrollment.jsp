@@ -19,6 +19,7 @@
     <div class="container">
         <form action="enrollment.jsp" method="post">
             <table cellspacing="35">
+                <h3 align="center">Enrollment</h3>
                 <tr>
                     <td><label for="skill-id"><b>Skill ID </b></label></td>
                     <td><input type="text" id="skill-id" name="skill-id" /></td>
