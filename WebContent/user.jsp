@@ -6,6 +6,9 @@
 <title>User Page</title>
 <link rel="icon" href="images\logo3.png" />
 <link rel="stylesheet" type="text/css" href="styles\style.css" />
+<script type="text/javascript">
+	window.history.forward();
+</script>
 </head>
 <body id="admin">
     <header> <nav> <a id="home-icon" href="index.jsp"> HOME</a></nav>
@@ -16,7 +19,7 @@
         <b>ATTENDANCE MARKING</b> <br> <b>FOR CLASSROOM</b>
     </div>
     <a id="enroll" href="enrollment.jsp">Enrollment</a> <a id="attend" href="attendance.jsp">Attendance</a>
-    </header>
+    <nav> <a id="logout" href="index.jsp">LOGOUT</a></nav> </header>
     <h1 id="user-quotes">
         THE BEST BRAINS OF THE NATION <br />MAY BE FOUND ON THE LAST BENCHES <br />OF THE
         CLASSROOM.<br />&nbsp;&nbsp;&nbsp;-A.P.J.ABDUL KALAM

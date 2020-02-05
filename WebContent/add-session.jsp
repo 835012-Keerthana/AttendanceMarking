@@ -6,10 +6,15 @@
 <title>Admin Page</title>
 <link rel="icon" href="images\logo3.png" />
 <link rel="stylesheet" type="text/css" href="styles\style.css" />
+<script type="text/javascript" src="js/script.js">
+window.history.forward();
+</script>
 </head>
 <body id="admin">
     <header> <nav> <a id="home-icon" href="index.jsp"> HOME</a></nav> <nav> <a
-        href="trainer.jsp"> BACK</a> </nav></header>
+        href="trainer.jsp"> BACK</a> </nav>
+        <nav><a id="logout" href="index.jsp">LOGOUT</a></nav>
+        </header>
     <div id="logo" style="display: inline-block; align: center;">
         <img src="images\logo3.png" border="0" />
     </div>
@@ -17,12 +22,18 @@
         <b>ATTENDANCE MARKING</b> <br> <b>FOR CLASSROOM</b>
     </div>
     <div class="container">
-        <form action="" method="post">
+        <form name="attendance" action="" autocomplete="off"
+            onsubmit="return validateAddSessionForm()" method="post">
             <table cellspacing="35">
                 <h3 align="center">Add Session</h3>
                 <tr>
-                    <td><label for="session-id"><b>Session ID </b></label></td>
-                    <td><input type="text" id="session-id" name="session-id" /></td>
+                    <td><label for="session-id"><b>Session ID</b></label></td>
+                    <td><select name="session-id" id="session-id">
+                            <option value="">Select Session</option>
+                            <option value="BehaviouralSession" id="session-id">JAVA001</option>
+                            <option value="ITSession" id="session-id">ADVJAVA002</option>
+
+                    </select></td>
                 </tr>
                 <tr>
                     <td><label for="session-description"><b>Session Description </b></label></td>

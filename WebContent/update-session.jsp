@@ -8,11 +8,15 @@
 <link rel="stylesheet" type="text/css" href="styles\style.css" />
 <link rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'>
+	window.history.forward();
+</script>
 </head>
 <body id="admin">
     <header> <nav> <a id="home-icon" href="index.jsp"> HOME</a></nav> <nav> <a
-        href="trainer.jsp"> BACK</a> </nav></header>
+        href="trainer.jsp"> BACK</a> </nav>
+        <nav><a id="logout" href="index.jsp">LOGOUT</a></nav>
+        </header>
     <div id="logo" style="display: inline-block; align: center;">
         <img src="images\logo3.png" border="0" />
     </div>
@@ -24,7 +28,7 @@
             <h3 align="center">Search Session</h3>
             <div class="input-icons">
                 <i class="fa fa-search icon" aria-hidden="true"></i> <input class="input-field"
-                    type="text" name="trainerId" placeholder="Trainer Id" />
+                    type="text" name="sessionId" placeholder="Session Id" />
             </div>
             <table cellspacing="35">
 

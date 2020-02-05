@@ -6,6 +6,9 @@
 <title>User Page</title>
 <link rel="icon" href="images\logo3.png" />
 <link rel="stylesheet" type="text/css" href="styles\style.css" />
+<script type="text/javascript">
+window.history.forward();
+</script>
 </head>
 <body id="admin">
     <header> <nav> <a id="home-icon" href="index.jsp"> HOME</a> </nav></header>
@@ -24,7 +27,7 @@
                 </tr>
                 <tr>
                     <td><label for="password"><b>Password</b></label></td>
-                    <td><input type="text" id="password" name="password" /></td>
+                    <td><input type="password" id="password" name="password" /></td>
                 </tr>
                 <tr>
                     <td></td>

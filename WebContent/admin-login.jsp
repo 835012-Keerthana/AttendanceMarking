@@ -6,6 +6,9 @@
 <title>Admin Page</title>
 <link rel="icon" href="images\logo3.png" />
 <link rel="stylesheet" type="text/css" href="styles\style.css" />
+<script type="text/javascript">
+	window.history.forward();
+</script>
 </head>
 <body id="admin">
     <header> <nav> <a id="home-icon" href="index.jsp"> HOME</a> </nav></header>
@@ -16,17 +19,17 @@
         <b>ATTENDANCE MARKING</b> <br> <b>FOR CLASSROOM</b>
     </div>
     <div class="container-admin">
-        <form action="trainer.jsp" method="post">
+        <form name="attendance" action="trainer.jsp" autocomplete="off" method="post">
             <table cellspacing="15">
                 <h3 align="center">Login</h3>
                 <tr>
 
-                    <td><label for="employeeId"><b>Admin Id</b></label></td>
-                    <td><input type="text" id="employeeId" name="employeeId" /></td>
+                    <td><label for="adminId"><b>Admin Id</b></label></td>
+                    <td><input type="text" id="adminId" name="adminId" /></td>
                 </tr>
                 <tr>
                     <td><label for="password"><b>Password</b></label></td>
-                    <td><input type="text" id="password" name="password" /></td>
+                    <td><input type="password" id="password" name="password" /></td>
                 </tr>
                 <tr>
                     <td></td>

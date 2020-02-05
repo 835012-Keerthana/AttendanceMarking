@@ -6,6 +6,9 @@
 <title>Admin Page</title>
 <link rel="icon" href="images\logo3.png" />
 <link rel="stylesheet" type="text/css" href="styles\style.css" />
+<script type="text/javascript">
+window.history.forward();
+</script>
 </head>
 <body id="admin">
     <div id="logo" style="display: inline-block; align: center;">
@@ -33,6 +36,12 @@
         <button class="dropbtn2">Skills</button>
         <div class="dropdown2-content">
             <a href="add-skill.jsp">Add Skils</a> <a href="map-skill.jsp">Map Skills</a>
+        </div>
+    </div>
+    <div class="dropdown3">
+        <button class="dropbtn3">Enrollment</button>
+        <div class="dropdown3-content">
+            <a href="super-user.jsp">Enrollment</a>
         </div>
     </div>
     </header>

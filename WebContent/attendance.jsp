@@ -6,6 +6,9 @@
 <title>Insert title here</title>
 <link rel="icon" href="images\logo3.png" />
 <link rel="stylesheet" type="text/css" href="styles\style.css" />
+<script type="text/javascript">
+	window.history.forward();
+</script>
 </head>
 <body id="admin">
     <header> <nav> <a id="home-icon" href="index.jsp"> HOME</a></nav> <nav> <a
@@ -22,11 +25,24 @@
                 <h3 align="center">Attendance</h3>
                 <tr>
                     <td><label for="skill-id"><b>Skill ID </b></label></td>
-                    <td><input type="text" id="skill-id" name="skill-id" /></td>
+                    <td><select name="skill-id" id="skill-id">
+                            <option value="">Select Skill</option>
+                            <option value="JAVA001" id="skill-id">JAVA001</option>
+                            <option value="ADVJAVA002" id="skill-id">ADVJAVA002</option>
+                            <option value="PYTHON003" id="skill-id">PYTHON003</option>
+                            <option value="SWIFT004" id="skill-id">SWIFT004</option>
+                            <option value="INTERPERSONAL005" id="skill-id">INTERPERSONAL005</option>
+                            <option value="COMMUNICATION006" id="skill-id">COMMUNICATION006</option>
+                    </select></td>
                 </tr>
                 <tr>
                     <td><label for="session-id"><b>Session ID</b></label></td>
-                    <td><input type="text" id="session-id" name="session-id" /></td>
+                    <td><select name="session-id" id="session-id">
+                            <option value="">Select Session</option>
+                            <option value="BehaviouralSession" id="session-id">JAVA001</option>
+                            <option value="ITSession" id="session-id">ADVJAVA002</option>
+
+                    </select></td>
                 </tr>
                 <tr>
                     <td><label for="attendance"><b>Attendance</b></label></td>

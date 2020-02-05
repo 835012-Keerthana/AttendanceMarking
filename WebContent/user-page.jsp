@@ -4,6 +4,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>User Page</title>
+<script type="text/javascript" src="js/script.js">
+	window.history.forward();
+</script>
 </head>
 <link rel="stylesheet" type="text/css" href="styles\style.css" />
 <link rel="icon" href="images\logo3.png" />
@@ -19,27 +22,28 @@
         <b>ATTENDANCE MARKING</b> </br> <b>FOR CLASSROOM</b>
     </div>
     <div class="container">
-        <form action="user-login.jsp" method="post">
+        <form name="attendance" action="user-login.jsp" autocomplete="off"
+            onsubmit="return validateUserRegistrationForm()" method="post">
             <div class="input-icons">
                 <h3 align="center">Registration</h3>
                 <i class="fas fa-user-alt icon" aria-hidden="true"></i> <input class="input-field"
-                    type="text" name="first-name" placeholder="FirstName" size="2" />
+                    type="text" name="first-name" id="fn" placeholder="FirstName" size="2" />
             </div>
             <div class="input-icons">
                 <i class="fas fa-user-alt icon" aria-hidden="true"></i> <input class="input-field"
-                    type="text" name="last-name" placeholder="LastName" size="2" />
+                    type="text" name="last-name" id="ln" placeholder="LastName" size="2" />
             </div>
             <div class="input-icons">
                 <i class="fas fa-user-alt icon" aria-hidden="true"></i> <input class="input-field"
-                    type="text" name="empId" placeholder="Employee Id" size="2" />
+                    type="text" name="empId" id="empId" placeholder="Employee Id" size="2" />
             </div>
             <div class="input-icons">
                 <i class="fas fa-envelope icon" aria-hidden="true"></i> <input class="input-field"
-                    type="text" name="emailId" placeholder="Email-Id" size="2" />
+                    type="text" name="emailId" id="emailId" placeholder="Email-Id" size="2" />
             </div>
             <div class="input-icons">
                 <i class="fas fa-lock icon" aria-hidden="true"></i> <input class="input-field"
-                    type="text" name="Password" placeholder="Password" size="2" />
+                    type="password" name="password" id="password" placeholder="Password" size="2" />
             </div>
             <table>
                 <tr>
