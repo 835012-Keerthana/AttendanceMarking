@@ -7,14 +7,12 @@
 <link rel="icon" href="images\logo3.png" />
 <link rel="stylesheet" type="text/css" href="styles\style.css" />
 <script type="text/javascript" src="js/script.js">
-window.history.forward();
+	window.history.forward();
 </script>
 </head>
 <body id="admin">
     <header> <nav> <a id="home-icon" href="index.jsp"> HOME</a></nav> <nav> <a
-        href="trainer.jsp"> BACK</a> </nav>
-        <nav><a id="logout" href="index.jsp">LOGOUT</a></nav>
-        </header>
+        href="trainer.jsp"> BACK</a> </nav> <nav> <a id="logout" href="index.jsp">LOGOUT</a></nav> </header>
     <div id="logo" style="display: inline-block; align: center;">
         <img src="images\logo3.png" border="0" />
     </div>

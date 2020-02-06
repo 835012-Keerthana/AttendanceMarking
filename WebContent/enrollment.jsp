@@ -7,7 +7,7 @@
 <link rel="icon" href="images\logo3.png" />
 <link rel="stylesheet" type="text/css" href="styles\style.css" />
 <script type="text/javascript">
-window.history.forward();
+	window.history.forward();
 </script>
 </head>
 <body id="admin">

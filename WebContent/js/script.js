@@ -1,3 +1,14 @@
+function ageCount() {
+	var date1 = new Date();
+	var dob = document.getElementById("dob").value;
+	var date2 = new Date(dob);
+	var y1 = date1.getFullYear();
+	var y2 = date2.getFullYear();
+	var age = y1 - y2;
+	document.getElementById("ageId").value = age;
+	doucment.getElementById("ageId").focus();
+	return true;
+}
 function validateAdminRegistrationForm() {
 	var firstName = document.forms["attendance"]["first-name"].value;
 	var firstNameRegExp = (/^.*[0-9].*$/);
@@ -25,18 +36,13 @@ function validateAdminRegistrationForm() {
 	} else {
 		document.getElementById('ln').style.borderColor = "white";
 	}
-	var age = document.forms["attendance"]["age"].value;
-	var ageNameRegExp = (/^.*[0-9].*$/);
-	if (age == "") {
-		alert("Please Enter Age");
-		document.getElementById('age').style.borderColor = "red";
-		return false;
-	} else if (!age.match(ageNameRegExp)) {
-		alert("Enter only numbers");
-		document.getElementById('age').style.borderColor = "red";
+	var dob = document.forms["attendance"]["dob"].value;
+	if (dob == "") {
+		alert("Please select your Date Of Birth");
+		document.getElementById('dob').style.borderColor = "red";
 		return false;
 	} else {
-		document.getElementById('age').style.borderColor = "white";
+		document.getElementById('dob').style.borderColor = "white";
 	}
 	var gender = document.forms["attendance"]["gender"].value;
 	if (gender == "") {
@@ -81,7 +87,6 @@ function validateAdminRegistrationForm() {
 		document.getElementById('password').style.borderColor = "white";
 	}
 }
-
 function validateUserRegistrationForm() {
 	var firstName = document.forms["attendance"]["first-name"].value;
 	var firstNameRegExp = (/^.*[0-9].*$/);

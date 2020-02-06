@@ -12,7 +12,7 @@
 <link rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 <script src='https://kit.fontawesome.com/a076d05399.js'>
-	window.history.forward();
+	
 </script>
 </head>
 <body id="admin">
@@ -37,18 +37,19 @@
             </div>
             <div class="input-icons">
                 <i class="fas fa-calendar-check icon" aria-hidden="true"></i> <input
-                    class="input-field" type="text" name="age" id="age" placeholder="Age" /> &nbsp;
-                <br />
-                <input type="date" id="calendar" name="calendar" />
+                    class="input-field" type="date" name="dob" id="dob" onblur="ageCount(this)"
+                    placeholder="Date Of Birth" /> &nbsp;
             </div>
-            <br />
+            <div class="input-icons">
+                <i class="fas fa-calendar-check icon" aria-hidden="true"></i> <input
+                    class="input-field" type="text" name="age" id="ageId" /> &nbsp;
+            </div>
             <div class="input-icons">
                 <i class=" fas fa-male icon" aria-hidden="true"></i><input id="radio" type="radio"
                     name="gender" value="male" />Male <i class=" fas fa-female icon"
                     aria-hidden="true"></i><input id="radio" type="radio" name="gender"
                     value="female" />Female
             </div>
-
             <div class="input-icons">
                 <i class="fas fa-phone-alt icon" aria-hidden="true"></i> <input class="input-field"
                     type="text" name="contact" id="contact" placeholder="Contact Number" size="2" />

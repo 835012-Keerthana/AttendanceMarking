@@ -12,7 +12,9 @@
 <link rel="icon" href="images\logo3.png" />
 <link rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'>
+	
+</script>
 <body id="admin">
     <header> <nav> <a id="home-icon" href="index.jsp"> HOME</a></nav></header>
     <div id="logo" style="display: inline-block; align: center;">

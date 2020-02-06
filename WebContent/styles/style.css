@@ -554,11 +554,6 @@ input[type=radio].with-font:focus+label:before {
     font-size: 53px;
     position: fixed;
 }
-/*Calendar Id in admin page*/
-#calendar {
-    width: px;
-    position: fixed;
-}
 /*Logout option in all webpages*/
 #logout {
     top: 2%;
